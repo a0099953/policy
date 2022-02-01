@@ -1,0 +1,34 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Allowed locations",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+  "scope": "/providers/Microsoft.Management/managementGroups/Data-Centre-Creation",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedLocations": {
+    "value": [
+     "eastus2",
+     "centralus"
+    ]
+   }
+  },
+  "metadata": {
+   "assignedBy": "bryan.long@extranet.sunchemical.com",
+   "parameterScopes": {
+    "listOfAllowedLocations": "/providers/Microsoft.Management/managementGroups/Data-Centre-Creation"
+   },
+   "createdBy": "9857528d-74af-43f0-9443-2f3b13d3d418",
+   "createdOn": "2022-01-27T17:11:58.7512893Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/Data-Centre-Creation/providers/Microsoft.Authorization/policyAssignments/3316fc8e23dd47eb8ba4c6ab",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "3316fc8e23dd47eb8ba4c6ab"
+}
